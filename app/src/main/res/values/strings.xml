@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kniffel</string>
+    <string name="trips">Trips</string>
+    <string name="quads">Quads</string>
+</resources>

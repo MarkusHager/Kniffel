@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kniffel</string>
+    <string name="trips">Dreier Pasch</string>
+    <string name="quads">Vierer Pasch</string>
+</resources>
