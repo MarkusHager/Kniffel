@@ -80,12 +80,14 @@
                     android:text="2"
                     android:layout_weight="1"
                     android:textSize="12sp"
+                    android:background="@color/LightSkyBlue"
                     android:checked="@{game.numberOfPlayers.equals(game.TWO_PLAYER)}"
                     android:onClick="@{()->game.setNumberOfPlayers(game.TWO_PLAYER)}"
                     />
                 <RadioButton
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:background="@color/LightSkyBlue"
                     android:layout_weight="1"
                     android:text="3"
                     android:textSize="12sp"
@@ -126,7 +128,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
-            android:layout_weight="1"
+            android:layout_weight="1.2"
             android:layout_height="0dp"
             >
             <Button
@@ -822,6 +824,8 @@
                 />
         </LinearLayout>
         <!-- Total up -->
+
+        <!--
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
@@ -899,7 +903,9 @@
                 android:text="@{game.playerTotalUpValue[5]}"
                 />
         </LinearLayout>
+        -->
         <!-- Bonus line -->
+        <!--
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
@@ -977,7 +983,9 @@
                 android:text="@{game.playerBonusValue[5]}"
                 />
         </LinearLayout>
+        -->
         <!-- Total up with bonus -->
+        <!--
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
@@ -1055,6 +1063,7 @@
                 android:text="@{game.playerTotalUpValuePlusBonus[5]}"
                 />
         </LinearLayout>
+        -->
         <!-- Dreierpasch: Kat. 6 -->
         <LinearLayout
             android:layout_width="match_parent"
@@ -1616,6 +1625,7 @@
         </LinearLayout>
 
         <!-- Total down -->
+        <!--
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
@@ -1693,7 +1703,7 @@
                 android:text="@{game.playerTotalDownValue[5]}"
                 />
         </LinearLayout>
-
+-->
         <!-- overall total -->
         <LinearLayout
             android:layout_width="match_parent"
